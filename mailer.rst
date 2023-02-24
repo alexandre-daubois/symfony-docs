@@ -111,6 +111,7 @@ SendGrid            ``composer require symfony/sendgrid-mailer``
 Sendinblue          ``composer require symfony/sendinblue-mailer``
 MailPace            ``composer require symfony/mail-pace-mailer``
 Infobip             ``composer require symfony/infobip-mailer``
+MailerSend          ``composer require symfony/mailersend-mailer``
 ==================  ==============================================
 
 .. versionadded:: 6.2
@@ -118,6 +119,10 @@ Infobip             ``composer require symfony/infobip-mailer``
     The Infobip integration was introduced in Symfony 6.2 and the ``MailPace``
     integration was renamed in Symfony 6.2 (in previous Symfony versions it was
     called ``OhMySMTP``).
+
+.. versionadded:: 6.3
+
+    The MailerSend integration was introduced in symfony 6.3.
 
 .. note::
 
@@ -177,6 +182,7 @@ Postmark             postmark+smtp://ID@default                           n/a   
 Sendgrid             sendgrid+smtp://KEY@default                          n/a                                         sendgrid+api://KEY@default
 Sendinblue           sendinblue+smtp://USERNAME:PASSWORD@default          n/a                                         sendinblue+api://KEY@default
 Infobip              infobip+smtp://KEY@default                           n/a                                         infobip+api://KEY@BASE_URL
+MailerSend           mailersend+smtp://USERNAME:PASSWORD@default          n/a                                         mailersend+api://KEY@BASE_URL
 ==================== ==================================================== =========================================== ========================================
 
 .. versionadded:: 6.3
